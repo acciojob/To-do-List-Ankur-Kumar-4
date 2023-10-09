@@ -6,6 +6,8 @@ document.getElementById("addTodoBtn").addEventListener("click",()=>{
 	let list = document.createElement("li");
 	list.innerHTML=value;
 	addlist.appendChild(list);
-	}
+	}else{
+}
+	document.getElementById("newTodoInput").value='';
 });
 
